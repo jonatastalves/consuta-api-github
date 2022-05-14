@@ -1,7 +1,6 @@
 import React from "react"
 import Prog from '../../Components/Prog.jsx'
 import {
-    Flex,
     Container,
     Heading,
     Stack,
@@ -11,7 +10,7 @@ import {
 
 function Home(){
     return(
-        <Container maxW={'5xl'}>
+      <Container maxW={'5xl'}>
         <Stack
           textAlign={'center'}
           align={'center'}
@@ -42,12 +41,8 @@ function Home(){
               Leia Mais...
             </Button>
           </Stack>
-          <Flex w={'full'}>
-            
-            {/* img aq */}
-          </Flex>
           <Prog />
-        </Stack>
+          </Stack>
       </Container>
     )
 }
