@@ -1,5 +1,5 @@
 import React from "react"
-import Prog from '../../Components/Prog.jsx'
+import Prog from '../../Components/Prog/Prog.jsx'
 import {
     Container,
     Heading,

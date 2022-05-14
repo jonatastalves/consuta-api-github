@@ -1,5 +1,5 @@
 import React from "react";
-import programador from "../Assets/prog.png"
+import programador from "../../Assets/prog.png"
 import './Prog.css'
 
 function Prog(){
