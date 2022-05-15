@@ -9,7 +9,7 @@ import {
   } from '@chakra-ui/react';
   import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
   import { ReactNode } from 'react';
-  import './Footer.style.module.css'
+  
   
   const SocialButton = ({ children, label, href, }: {children: ReactNode, label: string, href: string }) => {
     return (

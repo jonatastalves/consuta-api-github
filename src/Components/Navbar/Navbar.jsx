@@ -14,6 +14,7 @@ import {
 } from "@chakra-ui/react";
 
 import { AiOutlineMenu } from "react-icons/ai";
+import { Link } from "react-router-dom"
 
 function Navbar() {
   const bg = useColorModeValue("white", "gray.800");
@@ -36,11 +37,11 @@ function Navbar() {
               display="flex"
               alignItems="center"
             >
-              <VisuallyHidden>Consulta Github</VisuallyHidden>
+              <Link to='/'><VisuallyHidden>Consulta Github</VisuallyHidden></Link>
             </chakra.a>
-            <chakra.h1 fontSize="xl" fontWeight="medium" ml="2">
+            <Link to='/'><chakra.h1 fontSize="xl" fontWeight="medium" ml="2">
               Consulta Github
-            </chakra.h1>
+            </chakra.h1></Link>
           </Flex>
           <HStack display="flex" alignItems="center" spacing={1}>
             <HStack
@@ -49,12 +50,12 @@ function Navbar() {
               color="brand.500"
               display={{ base: "none", md: "inline-flex" }}
             >
-              <Button variant="ghost">Sobre</Button>
-              <Button variant="ghost">Whatsapp</Button>
+              <Link to='/Sobre'><Button variant="ghost">Sobre</Button></Link>
+              <a href={'https://api.whatsapp.com/send?phone=5521981578985'}><Button variant="ghost">Whatsapp</Button></a>
             </HStack>
-            <Button colorScheme="brand" size="sm">
+            <a href={'https://www.linkedin.com/in/jonatastalves/'}><Button colorScheme="brand" size="sm">
               Linkedin
-            </Button>
+            </Button></a>
             <Box display={{ base: "inline-flex", md: "none" }}>
               <IconButton
                 display={{ base: "flex", md: "none" }}
@@ -86,12 +87,12 @@ function Navbar() {
                   onClick={mobileNav.onClose}
                 />
 
-                <Button w="full" variant="ghost">
+                <Link to='/sobre'><Button w="full" variant="ghost">
                   Sobre
-                </Button>
-                <Button w="full" variant="ghost">
+                </Button></Link>
+                <a href={'https://api.whatsapp.com/send?phone=5521981578985'}><Button w="full" variant="ghost">
                   Whatsapp
-                </Button>
+                </Button></a>
               </VStack>
             </Box>
           </HStack>

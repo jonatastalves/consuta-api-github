@@ -1,5 +1,6 @@
 import React from "react"
 import Prog from '../../Components/Prog/Prog.jsx'
+import { Link } from 'react-router-dom'
 import {
     Container,
     Heading,
@@ -29,17 +30,17 @@ function Home(){
             Página sem fins lucrativos, feita como parte do processo seletivo da Sirius Interativa
           </Text>
           <Stack spacing={6} direction={'row'}>
-            <Button
+            <Link to='consulta'><Button
               rounded={'full'}
               px={6}
               colorScheme={'orange'}
               bg={'orange.400'}
               _hover={{ bg: 'orange.500' }}>
               Vamos lá
-            </Button>
-            <Button rounded={'full'} px={6}>
+            </Button></Link>
+            <Link to='sobre'><Button rounded={'full'} px={6}>
               Leia Mais...
-            </Button>
+            </Button></Link>
           </Stack>
           <Prog />
           </Stack>
