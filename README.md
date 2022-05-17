@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+<h1 align="center">CONSULTA API GITHUB</h1 align="center">
+ <br />
+  <p align="center">SUMÁRIO<p align="center">
+  <a href="#sobre"> Sobre </a> |
+  <a href="#Requisitos">Requisitos</a> |
+  <a href="#usamos"> Usamos </a> |
+  <a href="#rodando-o-projeto"> Rodando o projeto </a> 
+       <br />
+    <br />
+  </p>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sobre:
 
-## Available Scripts
+Projeto criado para processo seletivo na Sirius<br>
 
-In the project directory, you can run:
+Proposta: Implementar uma aplicação frontend, que consulte a API do GitHub e mostre os repositórios mais populares de um determinado usuário. Esta aplicação deve funcionar nos navegadores mais recentes do mercado.<br>
 
-### `npm start`
+Deploy do projeto se encontra no seguine link:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```https://consuta-api-github.vercel.app/```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Requisitos:
 
-### `npm test`
+- Eu, como usuário, desejo buscar por um usuário do GitHub;
+- Eu, como usuário, desejo ver os detalhes desse usuário que foi buscado (número de seguidores, número de seguidos, imagem do avatar, e-mail e bio);
+- Eu, como usuário, desejo ver a listagem dos repositórios desse usuário que foi buscado, ordenados pelo número decrescente de estrelas;
+- Eu, como usuário, desejo poder alterar a ordem da listagem de repositórios;
+- Eu, como usuário, desejo ver uma página com os detalhes de um repositório (nome, descrição, ,número de estrelas, linguagem e um link externo para a página do repositório no GitHub), que pode ser clicado na listagem dos repositórios;
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Usamos:
 
-### `npm run build`
+✔ React.js
+✔ Node.js
+✔ Create react app
+✔ Chakra UI
+✔ API Github
+✔ Axios
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Links uteis
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+✔[Git](https://git-scm.com) <br>
+✔[VSCode](https://code.visualstudio.com/) <br>
+✔[Node.js](https://nodejs.org/en/) <br>
 
-### `npm run eject`
+# Rodando o projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Para fazer uso localmente, utilizando o terminal de sua preferência use o seguinte comando:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`git clone https://github.com/jonatastalves/consuta-api-github.git`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Logo após use o comando:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+`cd consulta-api-github`
 
-## Learn More
+Após trocar o repositório abra pasta de destino utilizando o VSCode,<br>
+abra o terminal do versionador de código com o comando CTRL+J e instale o NPM para rodar o projeto localmente<br>
+com todas as dependências necessárias através de:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`npm install`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Para iniciar o projeto utilize:
 
-### Code Splitting
+`npm start`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
