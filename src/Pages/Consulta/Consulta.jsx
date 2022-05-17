@@ -24,7 +24,7 @@ function Consulta() {
         <SimpleGrid
           columns={{ base: 1, md: 2 }}
           spacing={15}
-          h='86vh'
+          h={{base: '90%',sm: '86vh' }}
           _after={{
             bg: "brand.500",
             opacity: 0.25,

@@ -1,0 +1,17 @@
+table{
+    width: 100%;
+}
+
+table th, table td{
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.star{
+    cursor: pointer;
+    color: yellow;
+}
+
+.repo-name{
+    cursor: pointer;
+}

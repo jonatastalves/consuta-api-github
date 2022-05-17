@@ -8,7 +8,7 @@ function Sobre(){
       bg={useColorModeValue("#F9FAFB", "gray.600")}
       p={50}
       w="full"
-      h="86vh"
+      h={{base: '90%',sm: '86vh' }}
       alignItems="center"
       justifyContent="center"
       
@@ -39,16 +39,16 @@ function Sobre(){
             color={useColorModeValue("gray.800", "white")}
             fontWeight="bold"
           >
-            Build Your New{" "}
+            Projeto criado para processo seletivo na{" "}
             <chakra.span color={useColorModeValue("brand.600", "brand.400")}>
-              Idea
+              Sirius
             </chakra.span>
           </chakra.h2>
           <chakra.p mt={4} color={useColorModeValue("gray.600", "gray.400")}>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem
-            modi reprehenderit vitae exercitationem aliquid dolores ullam
-            temporibus enim expedita aperiam mollitia iure consectetur dicta
-            tenetur, porro consequuntur saepe accusantium consequatur.
+          Proposta: Implementar uma aplicação frontend, que consulte a API do GitHub e mostre os repositórios mais populares de um determinado usuário. Esta aplicação deve funcionar nos navegadores mais recentes do mercado.
+          </chakra.p>
+          <chakra.p mt={4} color={useColorModeValue("gray.600", "gray.400")}>
+          Projeto realizado usando React.js, e biblioteca Chakra UI. Para consulta a API do GitHub foi feito uso do Axios
           </chakra.p>
 
           <Box mt={9}>
